@@ -1,11 +1,11 @@
 ---
-title: Case Studies
+title: Portfolio
 description: Datalumina B.V. is a data, analytics, and artificial intelligence company founded by Dave Ebbelaar to help businesses integrate AI and data into their operations. 
 ---
 
 # Featured Projects
 
-Welcome to my portfolio of data science and AI projects. Each project demonstrates my expertise in delivering impactful solutions to real-world business challenges.
+A selection of GenAI projects I've built, from RAG pipelines to agentic workflows, solving real, practical problems.
 
 <div class="grid cards" markdown>
 

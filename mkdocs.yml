@@ -1,17 +1,16 @@
-site_name: Your Site Name
+site_name: TASNADI AI
 site_description: Your site description
-site_url: https://yourdomain.com
+site_url: https://tasnadi-ai.de
 
 nav:
   - Home:
-    - About: index.md
-  - Case Studies:
-    - Overview: portfolio/index.md
-    - Projects:
-      - portfolio/projects/project-1.md
-      - portfolio/projects/project-2.md
-  - Blog:
-    - blog/index.md 
+    - About me: index.md
+  # - Portfolio:
+  #   - Overview: portfolio/index.md
+  #   - Projects:
+  #     - portfolio/projects/project-1.md
+  #     - portfolio/projects/project-2.md
+  - Book a free intro call: book-a-call.md 
 
 theme:
   name: material
@@ -21,8 +20,6 @@ theme:
     - navigation.tabs
     - navigation.expand
     - navigation.sections
-    - navigation.instant
-    - navigation.instant.prefetch
     - content.tooltips
     - content.tabs.link
     - content.code.copy
@@ -42,23 +39,17 @@ theme:
       primary: custom
       accent: custom
   font:
-    text: Roboto
+    text: Montserrat
     code: Roboto Mono
-  icon:
-    logo: material/slash-forward-box
-  favicon: assets/favicon.png
+  favicon: assets/logo-mark.png
 
 extra:
   generator: true
   social:
-    - icon: fontawesome/solid/building
-      link: https://company.com
     - icon: fontawesome/brands/github
-      link: https://github.com/
-    - icon: fontawesome/brands/youtube
-      link: https://youtube.com/
+      link: https://github.com/borbalita
     - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com
+      link: https://www.linkedin.com/in/borbála-t-826534103/
   analytics:
     # provider: google
     # property: G-W9Y130NXVZ
@@ -66,15 +57,16 @@ extra:
 extra_css:
   - stylesheets/extra.css
   - stylesheets/hero.css
+exclude_docs: |
+  blog/
+  portfolio/
+
 plugins:
   - search
   - social:
       cards_layout_options:
-        background_color: "#111111"
-  - blog:
-      blog_dir: blog
-      authors_file: "{blog}/.authors.yml"
-      categories: true
+        background_color: "#050505"
+        color: "#F5F1E3"
 
 markdown_extensions:
   - attr_list
@@ -102,4 +94,4 @@ extra_files:
   - docs/robots.txt
 
 copyright: |
-  &copy; 2024 <a href="https://www.linkedin.com" target="_blank" rel="noopener">John Doe</a>. All rights reserved.
+  &copy; 2026 <a href="https://www.linkedin.com/in/borbála-t-826534103/" target="_blank" rel="noopener">Borbála Tasnádi</a>. All rights reserved.

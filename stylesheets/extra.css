@@ -1,0 +1,171 @@
+:root {
+  --brand-primary-dark: #050505;
+  --brand-accent: #1B9AAA;
+  --brand-neutral: #DDDBCB;
+  --brand-bg: #F5F1E3;
+  --brand-surface: #FFFFFF;
+}
+
+/* Light theme */
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: var(--brand-primary-dark);
+  --md-primary-fg-color--light: var(--brand-accent);
+  --md-primary-fg-color--dark: var(--brand-primary-dark);
+  --md-primary-bg-color: var(--brand-surface);
+  --md-accent-fg-color: var(--brand-accent);
+  --md-accent-fg-color--transparent: rgba(27, 154, 170, 0.1);
+  --md-default-fg-color: var(--brand-primary-dark);
+  --md-default-fg-color--light: rgba(5, 5, 5, 0.72);
+  --md-default-fg-color--lighter: rgba(5, 5, 5, 0.45);
+  --md-default-fg-color--lightest: rgba(5, 5, 5, 0.12);
+  --md-default-bg-color: var(--brand-bg);
+  --md-default-bg-color--light: var(--brand-bg);
+  --md-default-bg-color--lighter: var(--brand-surface);
+  --md-typeset-a-color: var(--brand-accent);
+  --md-footer-bg-color: var(--brand-primary-dark);
+  --md-footer-bg-color--dark: var(--brand-primary-dark);
+  --md-code-bg-color: var(--brand-surface);
+  --md-code-fg-color: var(--brand-primary-dark);
+}
+
+/* Dark theme */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: var(--brand-primary-dark);
+  --md-primary-fg-color--light: var(--brand-accent);
+  --md-primary-fg-color--dark: var(--brand-primary-dark);
+  --md-primary-bg-color: var(--brand-surface);
+  --md-accent-fg-color: var(--brand-accent);
+  --md-accent-fg-color--transparent: rgba(27, 154, 170, 0.16);
+  --md-default-fg-color: var(--brand-bg);
+  --md-default-fg-color--light: rgba(245, 241, 227, 0.72);
+  --md-default-fg-color--lighter: rgba(245, 241, 227, 0.45);
+  --md-default-fg-color--lightest: rgba(245, 241, 227, 0.12);
+  --md-default-bg-color: var(--brand-primary-dark);
+  --md-typeset-a-color: var(--brand-accent);
+  --md-footer-bg-color: var(--brand-primary-dark);
+  --md-footer-bg-color--dark: var(--brand-primary-dark);
+  --md-code-bg-color: #111111;
+  --md-code-fg-color: var(--brand-bg);
+}
+
+.md-header,
+.md-tabs {
+  background-color: var(--brand-primary-dark);
+}
+
+.md-tabs {
+  display: block;
+  color: var(--brand-bg);
+}
+
+@media screen and (max-width: 76.234375em) {
+  .md-tabs {
+    display: block;
+  }
+}
+
+.md-tabs__link {
+  color: var(--brand-bg);
+  opacity: 0.8;
+}
+
+.md-tabs__item--active .md-tabs__link,
+.md-tabs__link:focus,
+.md-tabs__link:hover {
+  color: var(--brand-surface);
+  opacity: 1;
+}
+
+.md-footer {
+  background-color: var(--brand-primary-dark);
+}
+
+.md-footer-meta {
+  background-color: var(--brand-primary-dark);
+}
+
+.md-header__button.md-logo,
+.md-nav__button.md-logo {
+  display: none;
+}
+
+.md-header__title .md-header__topic:first-child .md-ellipsis {
+  font-size: 0;
+}
+
+.md-header__title .md-header__topic:first-child .md-ellipsis::before,
+.md-header__title .md-header__topic:first-child .md-ellipsis::after {
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+}
+
+.md-header__title .md-header__topic:first-child .md-ellipsis::before {
+  content: "TASNADI";
+  color: var(--brand-surface);
+}
+
+.md-header__title .md-header__topic:first-child .md-ellipsis::after {
+  content: "AI";
+  color: var(--brand-accent);
+  margin-left: 0.55em;
+}
+
+[data-md-color-scheme="default"] .md-typeset .grid.cards > ul > li {
+  background-color: var(--brand-surface);
+  border-color: var(--brand-neutral);
+}
+
+[data-md-color-scheme="slate"] .md-typeset .grid.cards > ul > li {
+  background-color: #111111;
+  border-color: rgba(221, 219, 203, 0.2);
+}
+
+[data-md-color-scheme="default"] .md-button--primary {
+  background-color: var(--brand-accent);
+  border-color: var(--brand-accent);
+  color: var(--brand-surface);
+}
+
+[data-md-color-scheme="default"] .md-button--primary:hover {
+  background-color: var(--brand-primary-dark);
+  border-color: var(--brand-primary-dark);
+  color: var(--brand-surface);
+}
+
+[data-md-color-scheme="slate"] .md-button--primary {
+  background-color: var(--brand-accent);
+  border-color: var(--brand-accent);
+  color: var(--brand-surface);
+}
+
+[data-md-color-scheme="slate"] .md-button:hover {
+  background-color: var(--brand-surface);
+  border-color: var(--brand-surface);
+  color: var(--brand-primary-dark);
+}
+
+/* Testimonial cards */
+.grid.cards.testimonials {
+  grid-template-columns: 1fr !important;
+  gap: 1.5rem;
+  margin: 1rem 0;
+}
+
+.grid.cards.testimonials > * {
+  margin-top: 0 !important;
+}
+
+.grid.cards.testimonials p:nth-child(2) {
+  margin-top: -0.5rem;
+  color: var(--md-default-fg-color--light);
+  font-size: 0.9rem;
+}
+
+.booking-section {
+  max-width: 40rem;
+}
+
+.booking-section .md-button {
+  margin-top: 0.8rem;
+}

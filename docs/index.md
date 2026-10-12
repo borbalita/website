@@ -59,7 +59,7 @@ My tech stack includes Python, LangChain, LangGraph, PydanticAI, FastAPI, Django
 
 <div class="profile-image-grid" markdown>
 
-![Borbála Tasnádi](assets/profile-image.png){ .profile-image alt="Portrait of Borbála Tasnádi" }
+![Borbála Tasnádi](assets/Bori_Tasnadi002_Foto_AHolmes.jpg){ .profile-image alt="Portrait of Borbála Tasnádi" }
 
 </div>
 

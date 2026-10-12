@@ -41,7 +41,7 @@ theme:
   font:
     text: Montserrat
     code: Roboto Mono
-  favicon: assets/logo-mark.png
+  favicon: assets/logo.png
 
 extra:
   generator: true

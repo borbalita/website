@@ -61,6 +61,6 @@ Ich arbeite unter anderem mit Python, LangChain, LangGraph, PydanticAI, FastAPI,
 
     Vereinbaren Sie ein kostenloses, 30-minütiges Kennenlerngespräch. Ich stelle Ihnen ein paar gezielte Fragen und sage Ihnen ehrlich, was möglich ist und welcher Aufwand dahintersteckt.
 
-    [Kostenloses Kennenlerngespräch buchen :material-arrow-top-right:](book-a-call.md){ .md-button .md-button--primary }
+    [Kostenloses Kennenlerngespräch buchen :material-arrow-top-right:](https://calendly.com/tasnadi-ai/introduction-call){ .md-button .md-button--primary target=_blank rel=noopener }
 
 </div>

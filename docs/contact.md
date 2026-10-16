@@ -9,7 +9,7 @@ description: Get in touch with Borbála Tasnádi.
 
 Have a question or a project in mind? Send me a message and I'll get back to you, usually within one working day.
 
-Prefer to talk? [Book a free intro call](book-a-call.md).
+Prefer to talk? [Book a free intro call](https://calendly.com/tasnadi-ai/introduction-call){ target=_blank rel=noopener }.
 
 <form class="contact-form" action="https://submit-form.com/sxEsvgv76" method="POST">
   <input type="hidden" name="_redirect" value="/thank-you/">

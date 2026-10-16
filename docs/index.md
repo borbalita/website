@@ -61,6 +61,6 @@ My tech stack includes Python, LangChain, LangGraph, PydanticAI, FastAPI, Django
 
     Book a free 30-minute intro call. I'll ask a few direct questions and give you my honest take on what's possible and what it would take.
 
-    [Book a free intro call :material-arrow-top-right:](book-a-call.md){ .md-button .md-button--primary }
+    [Book a free intro call :material-arrow-top-right:](https://calendly.com/tasnadi-ai/introduction-call){ .md-button .md-button--primary target=_blank rel=noopener }
 
 </div>

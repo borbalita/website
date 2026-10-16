@@ -9,10 +9,11 @@ nav:
   #   - Overview: portfolio/index.md
   #   - Projects:
   #     - portfolio/projects/folio.md
-  - Book a free intro call: book-a-call.md
+  - Book a free intro call: https://calendly.com/tasnadi-ai/introduction-call
   - Contact: contact.md
 
 not_in_nav: |
+  book-a-call*.md
   legal/
   thank-you*.md
 

@@ -55,7 +55,7 @@ Wenn Sie mir eine E-Mail schreiben, verarbeite ich Ihre E-Mail-Adresse und den I
 
 ## 7. Terminbuchung (Calendly)
 
-Auf der Seite „Book a free intro call“ verlinke ich auf den Terminbuchungsdienst Calendly der Calendly LLC, USA. Erst wenn Sie den Link anklicken, werden Sie zu Calendly weitergeleitet. Dort gelten die Datenschutzbestimmungen von Calendly: [Calendly Privacy Notice](https://calendly.com/privacy).
+Die Links „Kennenlerngespräch“ auf dieser Website führen zum Terminbuchungsdienst Calendly der Calendly LLC, USA. Erst wenn Sie den Link anklicken, werden Sie zu Calendly weitergeleitet. Dort gelten die Datenschutzbestimmungen von Calendly: [Calendly Privacy Notice](https://calendly.com/privacy).
 
 Die bei der Buchung angegebenen Daten (z. B. Name, E-Mail-Adresse, Terminwunsch) verarbeite ich zur Vorbereitung und Durchführung des Gesprächs. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO.
 

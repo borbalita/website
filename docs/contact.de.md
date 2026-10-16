@@ -9,7 +9,7 @@ description: Nehmen Sie Kontakt mit Borbála Tasnádi auf.
 
 Sie haben eine Frage oder ein Projekt im Kopf? Schreiben Sie mir. Ich melde mich in der Regel innerhalb eines Werktags.
 
-Lieber direkt sprechen? [Buchen Sie ein kostenloses Kennenlerngespräch](book-a-call.md).
+Lieber direkt sprechen? [Buchen Sie ein kostenloses Kennenlerngespräch](https://calendly.com/tasnadi-ai/introduction-call){ target=_blank rel=noopener }.
 
 <form class="contact-form" action="https://submit-form.com/sxEsvgv76" method="POST">
   <input type="hidden" name="_redirect" value="/de/thank-you/">

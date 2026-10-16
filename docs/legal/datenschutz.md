@@ -57,7 +57,7 @@ When you email me, I process your email address and the content of your message 
 
 ## 7. Appointment booking (Calendly)
 
-The "Book a free intro call" page links to the scheduling service Calendly, provided by Calendly LLC, USA. You are only taken to Calendly when you click the link. Calendly's privacy terms apply there: [Calendly Privacy Notice](https://calendly.com/privacy).
+The "Book a free intro call" links on this website lead to the scheduling service Calendly, provided by Calendly LLC, USA. You are only taken to Calendly when you click the link. Calendly's privacy terms apply there: [Calendly Privacy Notice](https://calendly.com/privacy).
 
 I process the details you provide when booking (e.g. name, email address, preferred time) to prepare and hold the call. The legal basis is Art. 6(1)(b) GDPR.
 

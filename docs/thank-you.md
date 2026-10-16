@@ -3,6 +3,7 @@ title: Thank you
 description: Your message has been sent.
 search:
   exclude: true
+robots: noindex
 ---
 
 # Thank you!

@@ -1,6 +1,7 @@
 ---
 title: Book a free intro call
 description: Schedule a free intro call with Borbála Tasnádi.
+robots: noindex
 ---
 
 <div class="booking-section" markdown>

@@ -1,6 +1,7 @@
 ---
 title: Kontakt
-description: Nehmen Sie Kontakt mit Borbála Tasnádi auf.
+description: "Kontakt zu Borbála Tasnádi, Freelance AI Engineer in Berlin. Stellen Sie Ihre Frage oder beschreiben Sie Ihr Projekt."
+seo_title: "Kontakt · Borbála Tasnádi, AI Engineer in Berlin"
 ---
 
 <div class="contact-section" markdown>

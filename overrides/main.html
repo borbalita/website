@@ -1,11 +1,28 @@
 {% extends "base.html" %}
 
+{#- A page can set `seo_title` in its front matter to replace the whole <title> -#}
+{% block htmltitle %}
+  {% if page.meta and page.meta.seo_title %}
+    <title>{{ page.meta.seo_title }}</title>
+  {% else %}
+    {{ super() }}
+  {% endif %}
+{% endblock %}
+
 {% block extrahead %}
   {{ super() }}
+  {#- A page can set `robots: noindex` to stay out of search results -#}
+  {% if page.meta and page.meta.robots %}
+    <meta name="robots" content="{{ page.meta.robots }}">
+  {% endif %}
   <link rel="apple-touch-icon" href="{{ 'assets/apple-touch-icon.png' | url }}">
   {#- Tell search engines which page is the translation of which -#}
   {% for alt in config.extra.alternate %}
     {% set path = alt.link | trim('/') | replace('./', '') | trim('.') %}
-    <link rel="alternate" hreflang="{{ alt.lang }}" href="{{ config.site_url | trim('/') }}/{{ path ~ '/' if path }}">
+    {% set href = config.site_url | trim('/') ~ '/' ~ (path ~ '/' if path else '') %}
+    <link rel="alternate" hreflang="{{ alt.lang }}" href="{{ href }}">
+    {% if loop.first %}
+      <link rel="alternate" hreflang="x-default" href="{{ href }}">
+    {% endif %}
   {% endfor %}
 {% endblock %}

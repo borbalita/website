@@ -1,27 +1,94 @@
 ---
 title: About Me
-description: Borbála Tasnádi, mathematician turned freelance AI engineer in Berlin. LLM systems you can rely on – workflow automation, AI agents, document processing and RAG knowledge bases, tested and privacy-first.
-keywords: Borbála Tasnádi, Tasnadi AI, AI engineer, GenAI, RAG, agentic workflows, Berlin
 author: Borbála Tasnádi
 canonical_url: https://tasnadi-ai.de/
+seo_title: "Borbála Tasnádi · Freelance AI Engineer in Berlin"
+description: "Freelance AI engineer in Berlin. I build workflow automation, AI agents, document processing and RAG knowledge bases that are tested and privacy-first."
 ---
 
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Borbála Tasnádi",
-  "url": "https://tasnadi-ai.de/",
-  "sameAs": [
-    "https://www.linkedin.com/in/borbála-t-826534103/",
-    "https://github.com/borbalita"
-  ],
-  "jobTitle": "Founder & AI Engineer",
-  "worksFor": {
-    "@type": "Organization",
-    "name": "Tasnadi AI",
-    "url": "https://tasnadi-ai.de/"
-  }
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://tasnadi-ai.de/#person",
+      "name": "Borbála Tasnádi",
+      "url": "https://tasnadi-ai.de/",
+      "image": "https://tasnadi-ai.de/assets/Bori_Tasnadi002_Foto_AHolmes.jpg",
+      "jobTitle": "Freelance AI Engineer",
+      "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": "Freie Universität Berlin"
+      },
+      "knowsAbout": [
+        "Generative AI",
+        "Large language models",
+        "Retrieval-augmented generation",
+        "AI agents",
+        "Workflow automation",
+        "Document processing",
+        "LLM evaluation",
+        "Python",
+        "Data privacy"
+      ],
+      "knowsLanguage": [
+        "en",
+        "de"
+      ],
+      "worksFor": {
+        "@id": "https://tasnadi-ai.de/#business"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/borbála-t-826534103/",
+        "https://github.com/borbalita"
+      ]
+    },
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://tasnadi-ai.de/#business",
+      "name": "Tasnadi AI",
+      "url": "https://tasnadi-ai.de/",
+      "logo": "https://tasnadi-ai.de/assets/favicon.png",
+      "image": "https://tasnadi-ai.de/assets/favicon.png",
+      "founder": {
+        "@id": "https://tasnadi-ai.de/#person"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Berlin",
+        "addressCountry": "DE"
+      },
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "Germany"
+        },
+        {
+          "@type": "Country",
+          "name": "Austria"
+        },
+        {
+          "@type": "Country",
+          "name": "Switzerland"
+        }
+      ],
+      "availableLanguage": [
+        "en",
+        "de"
+      ],
+      "serviceType": [
+        "Scoping for AI projects",
+        "Workflow automation and AI agents",
+        "Document processing",
+        "Knowledge bases (RAG)",
+        "LLM quality and cost control"
+      ],
+      "sameAs": [
+        "https://www.linkedin.com/in/borbála-t-826534103/"
+      ]
+    }
+  ]
 }
 </script>
 

@@ -1,6 +1,7 @@
 ---
 title: Kostenloses Kennenlerngespräch buchen
 description: Vereinbaren Sie ein kostenloses Kennenlerngespräch mit Borbála Tasnádi.
+robots: noindex
 ---
 
 <div class="booking-section" markdown>

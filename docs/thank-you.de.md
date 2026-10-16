@@ -3,6 +3,7 @@ title: Vielen Dank
 description: Ihre Nachricht wurde gesendet.
 search:
   exclude: true
+robots: noindex
 ---
 
 # Vielen Dank!

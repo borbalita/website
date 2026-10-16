@@ -1,6 +1,7 @@
 ---
 title: Contact
-description: Get in touch with Borbála Tasnádi.
+description: "Contact Borbála Tasnádi, freelance AI engineer in Berlin. Ask a question or describe your project, and get an answer within one working day."
+seo_title: "Contact · Borbála Tasnádi, AI Engineer in Berlin"
 ---
 
 <div class="contact-section" markdown>

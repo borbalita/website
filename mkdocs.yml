@@ -1,5 +1,5 @@
 site_name: TASNADI AI
-site_description: Your site description
+site_description: Freelance AI engineer in Berlin. Workflow automation, AI agents, document processing and RAG knowledge bases, tested and privacy-first.
 site_url: https://tasnadi-ai.de
 
 nav:
@@ -81,7 +81,7 @@ plugins:
         - locale: de
           name: Deutsch
           build: true
-          site_description: Freelance AI Engineer in Berlin – GenAI, RAG und Automatisierung für Ihre Dokumentenprozesse.
+          site_description: Freelance AI Engineer in Berlin. KI-Automatisierung, KI-Agenten, Dokumentenverarbeitung und RAG-Wissensdatenbanken, getestet und datenschutzkonform.
           copyright: |
             &copy; 2026 <a href="https://www.linkedin.com/in/borbála-t-826534103/" target="_blank" rel="noopener">Borbála Tasnádi</a>. Alle Rechte vorbehalten.
             · <a href="/de/legal/impressum/">Impressum</a>

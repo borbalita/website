@@ -11,11 +11,6 @@ Disallow: /*.json$
 Disallow: /search/
 Disallow: /search.html
 
-# Prevent access to specific directories (adjust as needed)
-Disallow: /assets/
-Disallow: /javascripts/
-Disallow: /stylesheets/
-
 # Add a crawl delay to slow down bots
 Crawl-delay: 5
 

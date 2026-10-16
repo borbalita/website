@@ -169,3 +169,130 @@
 .booking-section .md-button {
   margin-top: 0.8rem;
 }
+
+/* Contact form */
+.contact-section {
+  max-width: 40rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  margin-top: 1.5rem;
+}
+
+.contact-form label {
+  font-weight: 600;
+  margin-top: 0.6rem;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  font: inherit;
+  color: var(--md-default-fg-color);
+  background-color: var(--md-default-bg-color);
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: 0.2rem;
+  padding: 0.6rem 0.7rem;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: 2px solid var(--md-accent-fg-color);
+  outline-offset: 1px;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.contact-form .contact-form__consent {
+  display: flex;
+  gap: 0.6rem;
+  align-items: flex-start;
+  font-weight: 400;
+  font-size: 0.85em;
+  margin-top: 1rem;
+}
+
+.contact-form .contact-form__consent input {
+  margin-top: 0.25rem;
+}
+
+.contact-form__honeypot {
+  display: none;
+}
+
+.contact-form .md-button {
+  align-self: flex-start;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+/* Language switch (EN | DE) */
+.lang-switch {
+  display: flex;
+  align-items: center;
+  gap: 0.1rem;
+  margin: 0 0.4rem;
+  padding: 0.15rem;
+  border: 1px solid rgba(245, 241, 227, 0.35);
+  border-radius: 1rem;
+}
+
+.lang-switch__item {
+  padding: 0.15rem 0.55rem;
+  border-radius: 1rem;
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  line-height: 1.4;
+  color: var(--brand-bg);
+  opacity: 0.75;
+  transition: opacity 0.15s ease, background-color 0.15s ease;
+}
+
+.md-header a.lang-switch__item:hover,
+.md-header a.lang-switch__item:focus-visible {
+  color: var(--brand-bg);
+  opacity: 1;
+  background-color: rgba(245, 241, 227, 0.12);
+}
+
+.lang-switch__item--active {
+  background-color: var(--brand-accent);
+  color: var(--brand-surface);
+  opacity: 1;
+}
+
+@media screen and (max-width: 30em) {
+  .lang-switch {
+    margin: 0 0.1rem;
+    padding: 0.1rem;
+  }
+
+  .lang-switch__item {
+    padding: 0.1rem 0.35rem;
+    letter-spacing: 0.04em;
+  }
+
+  .md-header .md-header__inner .md-header__title {
+    margin-left: 0.5rem;
+    margin-right: 0.2rem;
+  }
+
+  .md-header__title .md-header__topic:first-child .md-ellipsis::before,
+  .md-header__title .md-header__topic:first-child .md-ellipsis::after {
+    letter-spacing: 0.12em;
+  }
+}
+
+/* Justified body text on wider screens; on phones the lines are too short and
+   justification leaves large gaps between words, so they stay left-aligned */
+@media screen and (min-width: 768px) {
+  .md-typeset p {
+    text-align: justify;
+  }
+}

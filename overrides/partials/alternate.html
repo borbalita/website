@@ -1,0 +1,10 @@
+{#- Language switch: a visible EN | DE pill instead of Material's translate-icon dropdown -#}
+<div class="md-header__option lang-switch" role="group" aria-label="{{ lang.t('select.language') }}">
+  {% for alt in config.extra.alternate %}
+    {% if alt.lang == config.theme.language %}
+      <span class="lang-switch__item lang-switch__item--active" lang="{{ alt.lang }}" aria-current="true" title="{{ alt.name }}">{{ alt.lang | upper }}</span>
+    {% else %}
+      <a class="lang-switch__item" href="{{ alt.link | url }}" hreflang="{{ alt.lang }}" lang="{{ alt.lang }}" title="{{ alt.name }}">{{ alt.lang | upper }}</a>
+    {% endif %}
+  {% endfor %}
+</div>

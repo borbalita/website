@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  {{ super() }}
+  <link rel="apple-touch-icon" href="{{ 'assets/apple-touch-icon.png' | url }}">
+  {#- Tell search engines which page is the translation of which -#}
+  {% for alt in config.extra.alternate %}
+    {% set path = alt.link | trim('/') | replace('./', '') | trim('.') %}
+    <link rel="alternate" hreflang="{{ alt.lang }}" href="{{ config.site_url | trim('/') }}/{{ path ~ '/' if path }}">
+  {% endfor %}
+{% endblock %}

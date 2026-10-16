@@ -8,12 +8,17 @@ nav:
   # - Portfolio:
   #   - Overview: portfolio/index.md
   #   - Projects:
-  #     - portfolio/projects/project-1.md
-  #     - portfolio/projects/project-2.md
-  - Book a free intro call: book-a-call.md 
+  #     - portfolio/projects/folio.md
+  - Book a free intro call: book-a-call.md
+  - Contact: contact.md
+
+not_in_nav: |
+  legal/
+  thank-you*.md
 
 theme:
   name: material
+  custom_dir: overrides
   features:
     - search.suggest
     - toc.integrate
@@ -41,7 +46,7 @@ theme:
   font:
     text: Montserrat
     code: Roboto Mono
-  favicon: assets/logo.png
+  favicon: assets/favicon.png
 
 extra:
   generator: true
@@ -63,6 +68,31 @@ exclude_docs: |
 
 plugins:
   - search
+  - i18n:
+      docs_structure: suffix
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: en
+          name: English
+          default: true
+          build: true
+        - locale: de
+          name: Deutsch
+          build: true
+          site_description: Freelance AI Engineer in Berlin – GenAI, RAG und Automatisierung für Ihre Dokumentenprozesse.
+          copyright: |
+            &copy; 2026 <a href="https://www.linkedin.com/in/borbála-t-826534103/" target="_blank" rel="noopener">Borbála Tasnádi</a>. Alle Rechte vorbehalten.
+            · <a href="/de/legal/impressum/">Impressum</a>
+            · <a href="/de/legal/datenschutz/">Datenschutz</a>
+          nav_translations:
+            Home: Start
+            About me: Über mich
+            Book a free intro call: Kennenlerngespräch
+            Contact: Kontakt
+            Overview: Übersicht
+            Projects: Projekte
+  - privacy
   - social:
       cards_layout_options:
         background_color: "#050505"
@@ -95,3 +125,5 @@ extra_files:
 
 copyright: |
   &copy; 2026 <a href="https://www.linkedin.com/in/borbála-t-826534103/" target="_blank" rel="noopener">Borbála Tasnádi</a>. All rights reserved.
+  · <a href="/legal/impressum/">Imprint</a>
+  · <a href="/legal/datenschutz/">Privacy</a>

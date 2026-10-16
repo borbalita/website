@@ -12,7 +12,7 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 # Install mkdocs-material with imaging support
-RUN pip install "mkdocs-material[imaging]"
+RUN pip install "mkdocs-material[imaging]" mkdocs-static-i18n
 
 WORKDIR /docs
 
